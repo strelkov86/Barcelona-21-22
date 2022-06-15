@@ -32,7 +32,7 @@ function getStandings() {
 			const standings = object['data'][0]['standings_rows']
 			teams = teams.concat(standings).sort((a, b) => a.position > b.position ? 1 : -1)
 	 })
-	}
+}
 
 
 const createPlayerRow = (player) =>  `

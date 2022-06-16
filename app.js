@@ -1,4 +1,4 @@
-const key = '1b0c6390d5mshc389748726d11b3p1199d9jsn97a357b4fa35'
+const key = config.apiKey
 const host = 'sportscore1.p.rapidapi.com'
 const teamTable = document.querySelector('.tbody-team')
 const leagueTable = document.querySelector('.tbody-liga')
